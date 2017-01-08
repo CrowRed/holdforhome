@@ -30,18 +30,25 @@
 <script>  
   /* make the API call */
 FB.api(
-    "/291987694492769/events",
-    function (response) {
-      if (response && !response.error) {
+          '/291987694492769/events
+    access_token='EAACEdEose0cBANxIsvuzg1jOEZB8LQZAZCl9zCoOZAVZAgsexULcWF05Q21GKZAmukKPmdgZBTnL8LuZCeaoq3OEO2M2FPdAYZAqL0ATWPwg9WmEkH5ldxweolihQX9KOMTKpz7PjOz58q1ZBDaoKU0x7URT10hEHwEH6AhclwEAa2LAZDZD',
+    'GET',
+          {fields: "name,description"},
+          function(response) {
+    if (response.data)
         var $name = $(document.getElementById('name')),
             $description = $(document.getElementById('description'));
         for (var i = 0, count = response.data.length; i < count; i++) {
             $name.append(response.data[i].name);
             $description.append(response.data[i].description);
+        }
     }
-      }
-    }
-);
-  </script>
+}
+        );
+  });
+});
+</script>
+
+
 </body>
 </html>
