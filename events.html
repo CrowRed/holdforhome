@@ -33,7 +33,12 @@ FB.api(
     "/291987694492769/events",
     function (response) {
       if (response && !response.error) {
-        /* handle the result */
+        var $name = $(document.getElementById('name')),
+            $description = $(document.getElementById('description'));
+        for (var i = 0, count = response.data.length; i < count; i++) {
+            $name.append(response.data[i].name);
+            $description.append(response.data[i].description);
+    }
       }
     }
 );
