@@ -1,0 +1,12 @@
+.logo {
+  width: 50px;
+}
+
+#main-menu {
+  list-style: none;
+  display: inline-flex;
+}
+
+ul#main-menu > li {
+  padding-left: 3em;
+}
