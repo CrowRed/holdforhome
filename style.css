@@ -1,12 +1,18 @@
 .logo {
   width: 50px;
+  float: left;
 }
 
-#main-menu {
+.bar {
+  text-align: center;
+}
+
+.menu {
   list-style: none;
   display: inline-flex;
 }
 
-ul#main-menu > li {
-  padding-left: 3em;
+ul.menu > li {
+  padding-right: 3em;
+  text-transform: uppercase;
 }
