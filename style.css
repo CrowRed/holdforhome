@@ -1,6 +1,11 @@
+body {
+   font-family: sans-serif;
+}
+
 .logo {
   width: 50px;
   float: left;
+  margin-left: 1em;
 }
 
 .bar {
