@@ -61,6 +61,7 @@ ul.menu > li > a {
 .col-12 {
   width: 96%;
   background-color: #0000001a;
+  height: 400px;
 }
 
 .col-1-sm {
