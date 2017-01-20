@@ -2,6 +2,10 @@ body {
    font-family: sans-serif;
 }
 
+p {
+    margin: 30px;
+}
+
 .logo {
   width: 50px;
   float: left;
