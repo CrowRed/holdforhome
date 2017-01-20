@@ -36,7 +36,7 @@ ul.menu > li > a {
 }
 
 #twitter-widget-0 {
-   border: 1px black solid;
+   border: 1px black solid !important;
 }
 
 /* ==== GRID SYSTEM ==== */
