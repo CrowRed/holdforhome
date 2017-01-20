@@ -25,6 +25,10 @@ ul.menu > li > a {
 #banner {
   background-image: url('DSC05819.JPG');
   width: 100%;
+  height: 28em;
+  background-position-x: 0em;
+  background-position-y: 88em;
+  background-size: 100%;
 }
 
 
