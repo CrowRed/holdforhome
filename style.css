@@ -35,6 +35,10 @@ ul.menu > li > a {
   background-size: 100%;
 }
 
+#twitter-widget-0 {
+   border: 1px black solid;
+}
+
 /* ==== GRID SYSTEM ==== */
 .row {
   position: relative;
