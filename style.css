@@ -18,6 +18,10 @@ ul.menu > li {
   text-transform: uppercase;
 }
 
+ul.menu > li > a {
+  text-decoration: none;
+}
+
 #banner {
   background-image: url('DSC05819.JPG');
   width: 100%;
