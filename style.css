@@ -38,6 +38,10 @@ ul.menu > li > a {
 }
 
 ul.menu > li > a:hover {
+  color: black !important;
+}
+
+.current-menu-item {
   color: black;
 }
 
