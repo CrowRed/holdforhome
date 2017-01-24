@@ -29,6 +29,16 @@ ul.menu > li {
 
 ul.menu > li > a {
   text-decoration: none;
+  color: grey;
+  -webkit-transition: color 100ms linear;
+  -moz-transition: color 100ms linear;
+  -o-transition: color 100ms linear;
+  -ms-transition: color 100ms linear;
+  transition: color 100ms linear;
+}
+
+ul.menu > li > a:hover {
+  color: black;
 }
 
 #banner {
