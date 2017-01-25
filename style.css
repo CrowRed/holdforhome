@@ -53,6 +53,11 @@ ul.menu > li > a:hover {
   background-size: 100%;
 }
 
+#banner-about {
+  background-image: url('DSC05802.JPG');
+  background-size: 100%;
+}
+
 #twitter-widget-0 {
    border: 1px #b6b6b6 solid !important;
 }
