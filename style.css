@@ -6,10 +6,11 @@ p {
     margin: 30px;
 }
 
-.logo {
+#logo {
   width: 50px;
   float: left;
   margin-left: 1em;
+  background-image: url('logo.png');
 }
 
 .bar {
