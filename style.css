@@ -60,6 +60,10 @@ ul.menu > li > a:hover {
   height: 100%;
 }
 
+#text-about {
+  background-color: white;
+}
+
 #twitter-widget-0 {
    border: 1px #b6b6b6 solid !important;
 }
