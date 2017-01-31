@@ -56,6 +56,7 @@ ul.menu > li > a:hover {
 #banner-about {
   background-image: url('DSC05802.JPG');
   background-size: 100%;
+  background-attachment: fixed;
   height: 100%;
 }
 
