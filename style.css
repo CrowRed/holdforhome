@@ -62,6 +62,8 @@ ul.menu > li > a:hover {
 
 #text-about {
   background-color: white;
+  margin: 7em;
+  padding: 1em;
 }
 
 #twitter-widget-0 {
